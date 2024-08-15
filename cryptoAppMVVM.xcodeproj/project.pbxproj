@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4A34972C6EC65900F89AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4A34962C6EC65900F89AEB /* Assets.xcassets */; };
 		EFD903562C6D3CC8008FAA7F /* cryptoAppMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD903552C6D3CC8008FAA7F /* cryptoAppMVVMApp.swift */; };
 		EFD903582C6D3CC8008FAA7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD903572C6D3CC8008FAA7F /* ContentView.swift */; };
-		EFD9035A2C6D3CC9008FAA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD903592C6D3CC9008FAA7F /* Assets.xcassets */; };
 		EFD9035D2C6D3CC9008FAA7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD9035C2C6D3CC9008FAA7F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF4A34962C6EC65900F89AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		EFD903522C6D3CC8008FAA7F /* cryptoAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptoAppMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD903552C6D3CC8008FAA7F /* cryptoAppMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptoAppMVVMApp.swift; sourceTree = "<group>"; };
 		EFD903572C6D3CC8008FAA7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EFD903592C6D3CC9008FAA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD9035C2C6D3CC9008FAA7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			children = (
 				EFD903552C6D3CC8008FAA7F /* cryptoAppMVVMApp.swift */,
 				EFD903572C6D3CC8008FAA7F /* ContentView.swift */,
-				EFD903592C6D3CC9008FAA7F /* Assets.xcassets */,
+				EF4A34962C6EC65900F89AEB /* Assets.xcassets */,
 				EFD9035B2C6D3CC9008FAA7F /* Preview Content */,
 			);
 			path = cryptoAppMVVM;
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD9035D2C6D3CC9008FAA7F /* Preview Assets.xcassets in Resources */,
-				EFD9035A2C6D3CC9008FAA7F /* Assets.xcassets in Resources */,
+				EF4A34972C6EC65900F89AEB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +275,11 @@
 				DEVELOPMENT_TEAM = THV7B3DXPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Mania";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +287,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.logikraft.cryptoAppMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +307,11 @@
 				DEVELOPMENT_TEAM = THV7B3DXPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Mania";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +319,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.logikraft.cryptoAppMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
